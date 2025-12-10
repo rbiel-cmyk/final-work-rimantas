@@ -26,10 +26,6 @@ body {
   position: relative;
 }
 
-.top-section {
-  background-color: rgb(255, 232, 186);
-}
-
 /* HEADER */
 header {
   height: 100px;
