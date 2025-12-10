@@ -306,13 +306,12 @@ header nav ul li a {
 /* image grid */
 .instagram-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
 }
 
 .instagram-grid img {
   width: 100%;
-  height: auto;
   border-radius: 16px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -486,6 +485,7 @@ header nav ul li a {
   transform: translateY(-5px);
   transition: transform 1s ease;
 }
+
 .animation:not(:hover) {
   transform: translateY(0px);
   transition: transform 1s ease;
